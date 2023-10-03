@@ -1,5 +1,26 @@
-html, body {
-    margin: 0;
-    padding: 10px;
-    font-size: 15px;
+html,
+body {
+  margin: 0;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.nav-logo {
+  width: 70px;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items > li {
+  padding: 10px;
 }
